@@ -3,11 +3,17 @@
  color: #3484F0;
 }
 
+.part_title h2:hover {
+ color: #255FDB;
+}
+
 .subtitle {
+ padding: 8px;
  li {
   font-size: 16px;
+  font-weight: 100;
   color: #C4DBFA;
-  padding: 24px;
+  padding: 8px;
   margin: auto;
  }
  li:hover {
