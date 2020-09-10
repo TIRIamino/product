@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin-top: 200px;
+  h1 {
+    padding: 56px;
+  }
+  h2 {
+    padding: 24px;
+  }
+  li {
+    padding: 16px;
+  }
+}
