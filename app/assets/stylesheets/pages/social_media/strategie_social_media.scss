@@ -38,8 +38,52 @@
 }
 
 .bg-notes{
-  background-color: grey;
-  color: black;
-  padding: 16px;
+ position: sticky;
+ position: -webkit-sticky;
+ top: 0;
+ background-color: #F7F7F7;
+ color: #282C2F;
+ padding: 16px;
+ border-radius: 4px;
+ h3 {
+  font-weight: 700;
+  padding: 8px;
+ }
+}
+
+#carre {
+ position: relative;
+ float: right;
+ right: 50px;
+ bottom: 100px;
+ width: 200px;
+ height: 200px;
+ background-color: #00BDD3;
+
+}
+
+.rotating {
+ animation: rotating 20s linear infinite, flashing 1s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+ from{
+  transform: rotate(0deg);
+ }
+ to{
+  transform: rotate(360deg);
+ }
+}
+
+@keyframes flashing {
+ 0% {
+  opacity: .1;
+ }
+ 50% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: .1;
+ }
 }
 
